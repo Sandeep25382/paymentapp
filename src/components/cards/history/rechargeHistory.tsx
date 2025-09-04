@@ -12,7 +12,7 @@ const RechargeHistoryComponent = ({item}: {item: upcomingBills}) => {
       }}>
       <View style={{borderRadius: 100}}>
         <Image
-          source={require('../../../assets/images/mobilerecharge.png')}
+          source={require('../../../../assets/images/mobilerecharge.png')}
           height={40}
           width={40}
         />
@@ -60,7 +60,7 @@ const RechargeHistoryComponent = ({item}: {item: upcomingBills}) => {
             }}>
             <Text style={{color: '#969696', fontSize: 12}}>Debited from</Text>
             <Image
-              source={require('../../../assets/images/icicidebitfrom.png')}
+              source={require('../../../../assets/images/icicidebitfrom.png')}
               height={40}
               width={40}
             />

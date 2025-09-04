@@ -13,7 +13,7 @@ const IconButtonComponent = ({
     onPress={onPress}
     style={[styles.avatar, {width: size, height: size}]}>
     <Image
-      source={require('../../assets/images/bell.png')}
+      source={require('../../../assets/images/bell.png')}
       style={{width: size - 20, height: size - 20, resizeMode: 'cover'}}
     />
   </TouchableOpacity>

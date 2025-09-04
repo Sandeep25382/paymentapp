@@ -175,7 +175,7 @@ const BottomSheetWithModal = ({
               <TouchableOpacity onPress={closeModal}>
                 <View style={{borderRadius: 100}}>
                   <Image
-                    source={require('../../assets/images/cancel.png')}
+                    source={require('../../../assets/images/cancel.png')}
                     height={40}
                     width={40}
                   />

@@ -16,19 +16,19 @@ const Others = () => {
     {
       id: '1',
       title: 'LIC\nInsurance',
-      icon: require('../../../assets/images/licinsurance.png'),
+      icon: require('../../../../assets/images/licinsurance.png'),
       screen: 'MobileRecharge',
     },
     {
       id: '2',
       title: 'Municipal\nTax',
-      icon: require('../../../assets/images/municipaltax.png'),
+      icon: require('../../../../assets/images/municipaltax.png'),
       screen: 'RechargeAndBills',
     },
     {
       id: '3',
       title: 'Apartment',
-      icon: require('../../../assets/images/apartment.png'),
+      icon: require('../../../../assets/images/apartment.png'),
       screen: 'RechargeAndBills',
     },
   ];

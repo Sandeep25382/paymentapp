@@ -12,22 +12,22 @@ const SelectFastTagProvider = () => {
     {
       id: 1,
       title: 'HDFC Bank',
-      icon: require('../assets/images/airtel.png'),
+      icon: require('../../assets/images/airtel.png'),
     },
     {
       id: 2,
       title: 'HDFC Bank',
-      icon: require('../assets/images/airtel.png'),
+      icon: require('../../assets/images/airtel.png'),
     },
     {
       id: 3,
       title: 'HDFC Bank',
-      icon: require('../assets/images/airtel.png'),
+      icon: require('../../assets/images/airtel.png'),
     },
     {
       id: 4,
       title: 'HDFC Bank',
-      icon: require('../assets/images/airtel.png'),
+      icon: require('../../assets/images/airtel.png'),
     },
   ];
   return (

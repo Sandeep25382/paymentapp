@@ -7,12 +7,12 @@ const SelectcableTVoperator = () => {
     {
       id: 1,
       title: 'XYZ Company',
-      icon: require('../assets/images/airtel.png'),
+      icon: require('../../assets/images/airtel.png'),
     },
     {
       id: 2,
       title: 'XYZ Company',
-      icon: require('../assets/images/airtel.png'),
+      icon: require('../../assets/images/airtel.png'),
     },
   ];
 

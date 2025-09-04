@@ -16,37 +16,37 @@ const Recharge = () => {
     {
       id: 'mobile',
       title: 'Mobile\nRecharge',
-      icon: require('../../../assets/images/mobilerecharge.png'),
+      icon: require('../../../../assets/images/mobilerecharge.png'),
       screen: 'MobileRecharge',
     },
     {
       id: 'fastag',
       title: 'FASTag\nRecharge',
-      icon: require('../../../assets/images/fasttag.png'),
+      icon: require('../../../../assets/images/fasttag.png'),
       screen: 'RechargeAndBills',
     },
     {
       id: 'DTH',
       title: 'DTH\nRecharge ',
-      icon: require('../../../assets/images/dth.png'),
+      icon: require('../../../../assets/images/dth.png'),
       screen: 'RechargeAndBills',
     },
     {
       id: 'Metro',
       title: 'Metro',
-      icon: require('../../../assets/images/metro.png'),
+      icon: require('../../../../assets/images/metro.png'),
       screen: 'RechargeAndBills',
     },
     {
       id: 'NCMC',
       title: 'NCMC Recharge',
-      icon: require('../../../assets/images/ncmc.png'),
+      icon: require('../../../../assets/images/ncmc.png'),
       screen: 'RechargeAndBills',
     },
     {
       id: 'CableTV',
       title: 'Cable TV',
-      icon: require('../../../assets/images/cabletv.png'),
+      icon: require('../../../../assets/images/cabletv.png'),
       screen: 'RechargeAndBills',
     },
   ];

@@ -9,7 +9,7 @@ import {
   ScrollView,
   SafeAreaView,
 } from 'react-native';
-import Svg, {Path} from 'react-native-svg';
+// import Svg, {Path} from 'react-native-svg';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {customTheme} from '../theme/theme';
 
@@ -30,7 +30,7 @@ const SettingsScreen = () => {
         {/* Profile Header */}
         <View style={styles.profileBox}>
           <Image
-            source={require('../assets/images/avatar.png')}
+            source={require('../../assets/images/avatar.png')}
             style={styles.avatar}
           />
           <Text style={styles.name}>Sandeep Sharma</Text>

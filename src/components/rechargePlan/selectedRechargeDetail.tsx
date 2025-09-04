@@ -4,7 +4,7 @@ const SelectedRechargeDetail = () => {
   return (
     <View style={style.layout}>
       <View style={{padding: 10}}>
-        <Image source={require('../../assets/images/vi.png')} />
+        <Image source={require('../../../assets/images/vi.png')} />
       </View>
       <View style={{display: 'flex', flexDirection: 'column', gap: 4}}>
         <View style={style.upperText}>

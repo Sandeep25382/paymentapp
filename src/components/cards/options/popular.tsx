@@ -16,25 +16,25 @@ const Popular = () => {
     {
       id: 'mobile',
       title: 'Mobile\nRecharge',
-      icon: require('../../../assets/images/mobilerecharge.png'),
+      icon: require('../../../../assets/images/mobilerecharge.png'),
       screen: 'MobileRecharge',
     },
     {
       id: 'fastag',
       title: 'FASTag\nRecharge',
-      icon: require('../../../assets/images/fasttag.png'),
+      icon: require('../../../../assets/images/fasttag.png'),
       screen: 'FASTagRecharge',
     },
     {
       id: 'electric',
       title: 'Electric\nBill',
-      icon: require('../../../assets/images/electricbill.png'),
+      icon: require('../../../../assets/images/electricbill.png'),
       screen: 'ElectricBill',
     },
     {
       id: 'cable',
       title: 'Cable\nTV',
-      icon: require('../../../assets/images/cabletv.png'),
+      icon: require('../../../../assets/images/cabletv.png'),
       screen: 'SelectcableTVoperator',
     },
   ];

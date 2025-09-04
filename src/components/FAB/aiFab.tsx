@@ -19,7 +19,7 @@
 
 // components/AIChatFAB.tsx
 import React from 'react';
-import {TouchableOpacity, StyleSheet, View, Image, Text} from 'react-native';
+import {TouchableOpacity, StyleSheet, View,  } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 interface FABProps {
@@ -35,7 +35,7 @@ const AIChatFAB = ({onPress}: FABProps) => {
         onPress={onPress || (() => console.log('Open AI Chat'))}>
         <Icon name="robot" size={26} color="#fff" />
         {/* <Image
-          source={require('../../assets/images/bot.png')} // 👈 your image path
+          source={require('../../../assets/images/bot.png')} // 👈 your image path
           style={styles.image}
           resizeMode="contain"
         /> */}

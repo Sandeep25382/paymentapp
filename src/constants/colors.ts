@@ -1,14 +1,23 @@
-// colors.js
 export const LightColors = {
-  background: '#FFFFFF',
-  text: '#000000',
-  buttonBg: '#007AFF',
+  background: '#F2F2F2',
+  foreground: '#FFFFFF',
+  primaryText: '#1A1A1A',
+  secondaryText: '#969696',
+  main: '#6C54FF',
+  primaryButton: '#6C54FF',
+  highlight: '#F1EFFF',
   buttonText: '#FFFFFF',
+  borderColor: '#E4E4E4',
 };
 
 export const DarkColors = {
   background: '#121212',
-  text: '#FFFFFF',
-  buttonBg: '#1E88E5',
-  buttonText: '#000000',
+  foreground: '#121212',
+  primaryText: '#1A1A1A',
+  secondaryText: '#969696',
+  main: '#6C54FF',
+  primaryButton: '#6C54FF',
+  highlight: '#F1EFFF',
+  buttonText: '#FFFFFF',
+  borderColor: '#E4E4E4',
 };

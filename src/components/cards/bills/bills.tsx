@@ -7,7 +7,7 @@ const Bills = ({item}: {item: upcomingBills}) => {
       <View style={{display: 'flex', flexDirection: 'row', gap: 5}}>
         <View style={{borderRadius: 100}}>
           <Image
-            source={require('../../../assets/images/airtel.png')}
+            source={require('../../../../assets/images/airtel.png')}
             height={40}
             width={40}
           />
@@ -31,7 +31,7 @@ const Bills = ({item}: {item: upcomingBills}) => {
           borderRadius: 100,
         }}>
         <Image
-          source={require('../../../assets/images/alertorange.png')}
+          source={require('../../../../assets/images/alertorange.png')}
           height={10}
           width={10}
         />

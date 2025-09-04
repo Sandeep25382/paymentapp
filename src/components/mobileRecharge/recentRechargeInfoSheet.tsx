@@ -62,7 +62,7 @@ const RecentRechargeInfoSheet = ({
         <View style={{display: 'flex', flexDirection: 'row', gap: 10}}>
           <View style={{borderRadius: 100}}>
             <Image
-              source={require('../../assets/images/airtel.png')}
+              source={require('../../../assets/images/airtel.png')}
               height={40}
               width={40}
             />
@@ -98,7 +98,7 @@ const RecentRechargeInfoSheet = ({
             alignItems: 'center',
           }}>
           <Image
-            source={require('../../assets/images/viewhistory.png')}
+            source={require('../../../assets/images/viewhistory.png')}
             height={40}
             width={40}
           />
@@ -131,7 +131,7 @@ const RecentRechargeInfoSheet = ({
             alignItems: 'center',
           }}>
           <Image
-            source={require('../../assets/images/delete.png')}
+            source={require('../../../assets/images/delete.png')}
             height={40}
             width={40}
           />

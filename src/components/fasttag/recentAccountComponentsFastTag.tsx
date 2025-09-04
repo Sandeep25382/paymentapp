@@ -1,7 +1,7 @@
 import {Text, View, Image, TouchableOpacity} from 'react-native';
 import {upcomingBills} from '../cards/types';
-import BottomSheetWithModal from '../bottomSheet/bottomsheet';
-import RecentRechargeInfoSheet from '../mobileRecharge/recentRechargeInfoSheet';
+// import BottomSheetWithModal from '../bottomSheet/bottomsheet';
+// import RecentRechargeInfoSheet from '../mobileRecharge/recentRechargeInfoSheet';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../../types/navigation';
 import {useNavigation} from '@react-navigation/native';
@@ -27,7 +27,7 @@ const RecentAccountComponentsFastTag = ({item}: {item: upcomingBills}) => {
         style={{display: 'flex', flexDirection: 'row', gap: 10}}>
         <View style={{borderRadius: 100}}>
           <Image
-            source={require('../../assets/images/fasttag.png')}
+            source={require('../../../assets/images/fasttag.png')}
             height={40}
             width={40}
           />

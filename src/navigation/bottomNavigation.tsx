@@ -1,6 +1,6 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'; 
-import HomeScreen from '../screens/HomeScreen';
+import HomeScreen from '../screens/home/home';
  
 
 import {Image} from 'react-native';
@@ -33,16 +33,16 @@ const BottomTabs = () => {
 
           switch (route.name) {
             case 'Home':
-              imageSource = require('../assets/images/home.png');
+              imageSource = require('../../assets/images/home.png');
               break;
             case 'Search':
-              imageSource = require('../assets/images/search.png');
+              imageSource = require('../../assets/images/search.png');
               break;
             case 'Notifcation':
-              imageSource = require('../assets/images/notification.png');
+              imageSource = require('../../assets/images/notification.png');
               break;
             case 'History':
-              imageSource = require('../assets/images/history.png');
+              imageSource = require('../../assets/images/history.png');
               break;
           }
 

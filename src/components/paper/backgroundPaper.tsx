@@ -1,13 +1,11 @@
-import React, {ReactNode} from 'react';
+import React, { ReactNode } from 'react';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+
 import {
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  useColorScheme,
-  View,
-} from 'react-native';
-import {DarkColors, LightColors} from '../../constants/colors';
+  responsiveHeight,
+  responsiveWidth,
+} from 'react-native-responsive-dimensions';
+import { useColor } from '../../services/hooks/useColor';
 const BackgroundPaper = ({
   title,
   children,
@@ -17,30 +15,36 @@ const BackgroundPaper = ({
   children: ReactNode;
   onPress?: () => void;
 }) => {
-  const isDarkMode = useColorScheme() === 'dark';
+  const { foreground, borderColor, primaryText } = useColor();
+
+  const styles = StyleSheet.create({
+    title: {
+      fontSize: 18,
+      fontWeight: 'semibold',
+      color: primaryText,
+    },
+    titleContainer: { flexDirection: 'row', justifyContent: 'space-between' },
+    container: {
+      backgroundColor: foreground,
+      padding: responsiveWidth(4),
+      marginVertical: responsiveHeight(0.7),
+      borderRadius: 15,
+      borderWidth: 1,
+      borderColor: borderColor,
+    },
+  });
 
   return (
-    <View
-      style={{
-        backgroundColor: isDarkMode
-          ? DarkColors.background
-          : LightColors.background,
-        width: '100%',
-        padding: 16,
-        borderRadius: 15,
-
-        borderWidth: 1,
-        borderColor: '#E4E4E4',
-      }}>
+    <View style={styles.container}>
       {
-        <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-        {title &&   <Text style={styles.title}>{title}</Text>}
+        <View style={styles.titleContainer}>
+          {title && <Text style={styles.title}>{title}</Text>}
           {onPress && (
             <TouchableOpacity onPress={onPress}>
               <Image
                 height={30}
                 width={30}
-                source={require('../../assets/images/viewmore.png')}
+                source={require('../../../assets/images/viewmore.png')}
               />
             </TouchableOpacity>
           )}
@@ -50,13 +54,5 @@ const BackgroundPaper = ({
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  title: {
-    fontSize: 18,
-    fontWeight: 'semibold',
-    color: '#1A1A1A',
-  },
-});
 
 export default BackgroundPaper;

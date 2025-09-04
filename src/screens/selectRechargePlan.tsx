@@ -24,7 +24,7 @@ const SelectRechargePlan = () => {
             marginVertical: 10,
           }}>
           <Image
-            source={require('../assets/images/search.png')}
+            source={require('../../assets/images/search.png')}
             style={{
               width: 20,
               height: 20,
@@ -32,7 +32,7 @@ const SelectRechargePlan = () => {
             }}
           />
           <TextInput
-            style={{height: 20}}
+            style={{height: 20,color:"black"}}
             placeholder="Search a plan, eg 349, 5G, etc."
           />
         </View>

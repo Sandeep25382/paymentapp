@@ -18,7 +18,7 @@ const Search = ({
       value={searchQuery}
       icon={() => (
         <Image
-          source={require('../../assets/images/search.png')}
+          source={require('../../../assets/images/search.png')}
           style={{
             width: 20,
             height: 20,

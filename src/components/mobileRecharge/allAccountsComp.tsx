@@ -15,7 +15,7 @@ const AllAccountComponents = ({item}: {item: upcomingBills}) => {
       <View style={{display: 'flex', flexDirection: 'row', gap: 10}}>
         <View style={{borderRadius: 100}}>
           <Image
-            source={require('../../assets/images/airtel.png')}
+            source={require('../../../assets/images/airtel.png')}
             height={40}
             width={40}
           />
